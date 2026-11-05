@@ -303,3 +303,9 @@ html { scroll-padding-top:132px; }
 
 /* Shared service illustration library */
 .service-image{height:240px}.service-image img{object-fit:contain!important;background:#edf0e8;width:100%;height:100%}.service-photo-note small{display:block;line-height:1.6;overflow-wrap:anywhere}.service-photo-note{margin-bottom:16px}@media(max-width:700px){.service-image{width:calc(100% + 44px);margin:-22px -22px 0}}
+
+/* Reviewed people-free media */
+.service-pattern{position:relative;overflow:hidden;background:#293027;border-radius:24px}
+.service-pattern span{position:absolute;display:block;width:155%;height:190px;border:2px solid #edb84f;opacity:.45;border-radius:46%;left:-25%;top:25px;transform:rotate(-18deg)}
+.service-pattern span:nth-child(2){top:58px}.service-pattern span:nth-child(3){top:91px}.service-pattern span:nth-child(4){top:124px}.service-pattern span:nth-child(5){top:157px}
+.service-pattern+.eyebrow{display:block;margin-top:18px}
